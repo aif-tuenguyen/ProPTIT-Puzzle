@@ -17,16 +17,11 @@ How To Use This
 
 Go to the each folder install lib and start sever for each service.
 
-## Example START sever FastApiBackend 
+## Example start sever FastApiBackend 
 0. Python3~=3.6.9 in your environment.s
 1. Run `pip install -r requirements.txt` to install dependencies.
 2. Run `python3 main.py`.
 3. Navigate to http://localhost:31001 in your browser.
-
-Folder Stucture
----------------
-- `main.py`: Main process script builtin FastAPI framework.
-- `utils`: including necessary modules builtin Python  
 
 ## Authors
 - ProPTIT Puzzle's members
