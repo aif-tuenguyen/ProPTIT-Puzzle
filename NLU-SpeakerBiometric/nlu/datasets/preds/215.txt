@@ -1,0 +1,1 @@
+{"intent": "None", "ten_th\u1ebb": ["hello"], "text": "hello"}

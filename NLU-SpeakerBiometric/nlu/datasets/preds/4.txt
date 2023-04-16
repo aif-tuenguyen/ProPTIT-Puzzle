@@ -1,0 +1,1 @@
+{"intent": "want_to_rec", "target": ["cafe h\u00f4m qua"], "money": ["100 ngh\u00ecn"], "text": "ti\u1ec1n cafe h\u00f4m qua l\u00e0 100k nha"}

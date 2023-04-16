@@ -1,0 +1,6 @@
+*.ckpt
+spk/sources/*
+*.wav
+*.pt
+*.json
+*.wav

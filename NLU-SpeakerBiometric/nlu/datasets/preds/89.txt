@@ -1,0 +1,1 @@
+{"intent": "want_to_rec", "name_rec": ["t\u00f4i"], "target": ["qua"], "name_sender": ["mb"], "ng\u00e2n_h\u00e0ng": ["mb bank"], "money": ["50 ngh\u00ecn"], "text": "chuy\u1ec3n ti\u1ec1n cho t\u00f4i qua mb bank v\u1edbi, 50k nha"}

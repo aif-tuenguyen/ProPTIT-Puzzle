@@ -1,0 +1,5 @@
+
+
+synomus = {
+    "chuyển khoản":['ck']
+}

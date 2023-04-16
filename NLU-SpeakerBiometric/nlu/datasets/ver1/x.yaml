@@ -1,0 +1,85 @@
+import ./common.chatito
+
+# Ways to request a restaurant within a location (using probability operator)
+# NOTE: 60% of the examples should come from the first sentence, and 40% from the second
+%[sender]('training':'1000', 'testing':'100')
+    *[10%] @[s1]  ~[send] cho @[s2]   @[target] ~[end?]
+    *[10%] cho @[s1] ~[send]  @[target] cho @[s2] ~[end?]
+    *[10%] @[target] @[s1] ~[send] cho @[s2] ~[end?]
+#*[10%] ~[send] @[s1] @[target] ~[end?]
+#%[transferMoneySample1]('training':'1000', 'testing':'100')
+
+@[s1]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    tôi
+    tao
+    ông
+    bà
+    bố
+    mẹ
+@[s2]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    tôi
+    tao
+    ông
+    bà
+    bố
+    mẹ
+@[target]
+    tiền ~[main] ~[time?]
+@[city]
+    ~[new york]
+    ~[san francisco]
+    ~[atlanta]
+~[main]
+    phòng
+    trọ
+    phòng trọ
+    ăn
+    cà phê
+    sân bóng
+    hàng
+    ship
+    gia sư
+    cọc sân
+    tiêu
+    áo
+    quần
+    đồ ăn
+    ăn trưa
+    ăn tối
+    nước
+~[time]
+    tối qua
+    trưa qua
+    hôm qua
+    tháng này
+    tháng vừa rồi
+    ngày hôm qua
+~[send]
+    gửi
+    chuyển
+    đưa
+    bắn tài khoản
+    trả
+    chuyển khoản
+    chuyển tiền
+    đặt cọc
+    thanh toán
+    trả nợ
+~[end]
+    nhé
+    nhá
+    nha 

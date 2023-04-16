@@ -1,0 +1,1 @@
+{"intent": "want_to_rec", "name_rec": ["ch\u1ecb"], "money": ["50 ngh\u00ecn"], "text": "chuy\u1ec3n cho ch\u1ecb 50k"}

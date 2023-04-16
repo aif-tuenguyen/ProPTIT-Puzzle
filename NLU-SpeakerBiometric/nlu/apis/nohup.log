@@ -1,0 +1,1094 @@
+Some weights of the model checkpoint at vinai/phobert-base were not used when initializing RobertaModel: ['roberta.encoder.layer.10.output.dense.weight', 'roberta.encoder.layer.7.attention.self.key.bias', 'roberta.encoder.layer.5.attention.output.dense.weight', 'roberta.encoder.layer.4.attention.output.dense.weight', 'roberta.encoder.layer.4.attention.self.key.bias', 'roberta.encoder.layer.8.intermediate.dense.weight', 'roberta.encoder.layer.7.attention.self.query.bias', 'roberta.encoder.layer.5.attention.output.LayerNorm.weight', 'roberta.encoder.layer.8.attention.self.value.bias', 'roberta.encoder.layer.4.attention.self.value.bias', 'roberta.encoder.layer.5.attention.self.query.bias', 'roberta.encoder.layer.6.attention.self.value.weight', 'roberta.encoder.layer.4.intermediate.dense.weight', 'roberta.encoder.layer.7.attention.output.LayerNorm.bias', 'roberta.encoder.layer.10.output.dense.bias', 'roberta.encoder.layer.9.attention.output.dense.weight', 'roberta.encoder.layer.6.attention.self.query.bias', 'roberta.encoder.layer.10.output.LayerNorm.bias', 'roberta.encoder.layer.5.attention.self.value.bias', 'roberta.encoder.layer.6.attention.self.value.bias', 'roberta.encoder.layer.9.attention.self.value.bias', 'roberta.encoder.layer.8.attention.self.value.weight', 'roberta.encoder.layer.10.attention.self.key.bias', 'roberta.encoder.layer.7.output.dense.weight', 'roberta.encoder.layer.11.attention.self.value.bias', 'lm_head.dense.weight', 'roberta.encoder.layer.8.attention.self.query.bias', 'roberta.encoder.layer.4.attention.output.dense.bias', 'roberta.encoder.layer.9.intermediate.dense.bias', 'roberta.encoder.layer.10.attention.self.value.weight', 'roberta.encoder.layer.9.output.dense.weight', 'roberta.encoder.layer.9.attention.self.key.weight', 'roberta.encoder.layer.10.intermediate.dense.weight', 'roberta.encoder.layer.8.output.dense.weight', 'lm_head.decoder.weight', 'roberta.encoder.layer.5.output.dense.weight', 'roberta.encoder.layer.6.output.dense.bias', 'roberta.encoder.layer.9.output.LayerNorm.weight', 'roberta.encoder.layer.5.attention.self.query.weight', 'roberta.encoder.layer.7.intermediate.dense.weight', 'roberta.encoder.layer.6.attention.output.LayerNorm.bias', 'roberta.encoder.layer.7.attention.self.value.bias', 'roberta.encoder.layer.7.output.LayerNorm.bias', 'roberta.encoder.layer.4.output.dense.weight', 'roberta.encoder.layer.4.output.dense.bias', 'roberta.encoder.layer.11.attention.self.value.weight', 'roberta.encoder.layer.5.intermediate.dense.weight', 'roberta.encoder.layer.7.attention.self.query.weight', 'roberta.encoder.layer.11.output.dense.weight', 'roberta.encoder.layer.4.output.LayerNorm.weight', 'roberta.encoder.layer.10.attention.output.dense.weight', 'roberta.encoder.layer.5.attention.self.key.weight', 'roberta.encoder.layer.8.output.LayerNorm.bias', 'roberta.encoder.layer.6.output.LayerNorm.bias', 'roberta.encoder.layer.10.attention.output.LayerNorm.bias', 'roberta.encoder.layer.8.attention.self.key.weight', 'roberta.encoder.layer.4.attention.output.LayerNorm.weight', 'roberta.encoder.layer.9.attention.self.value.weight', 'roberta.encoder.layer.10.attention.output.LayerNorm.weight', 'roberta.encoder.layer.5.attention.output.LayerNorm.bias', 'roberta.encoder.layer.8.intermediate.dense.bias', 'roberta.encoder.layer.7.output.dense.bias', 'roberta.encoder.layer.6.attention.self.key.bias', 'roberta.encoder.layer.9.attention.self.query.bias', 'roberta.encoder.layer.5.attention.output.dense.bias', 'roberta.encoder.layer.11.attention.self.key.weight', 'roberta.encoder.layer.11.output.dense.bias', 'roberta.encoder.layer.4.attention.self.query.bias', 'roberta.encoder.layer.6.attention.output.dense.bias', 'roberta.encoder.layer.7.output.LayerNorm.weight', 'roberta.encoder.layer.10.intermediate.dense.bias', 'roberta.encoder.layer.6.attention.self.key.weight', 'roberta.encoder.layer.4.attention.self.query.weight', 'roberta.encoder.layer.11.attention.output.LayerNorm.weight', 'roberta.encoder.layer.11.attention.output.dense.weight', 'roberta.encoder.layer.7.attention.output.dense.weight', 'roberta.encoder.layer.8.attention.self.key.bias', 'lm_head.bias', 'roberta.encoder.layer.4.output.LayerNorm.bias', 'roberta.encoder.layer.6.output.LayerNorm.weight', 'roberta.encoder.layer.11.attention.self.key.bias', 'roberta.encoder.layer.11.intermediate.dense.bias', 'roberta.encoder.layer.9.attention.self.key.bias', 'roberta.encoder.layer.8.output.dense.bias', 'lm_head.layer_norm.bias', 'roberta.encoder.layer.9.attention.output.LayerNorm.bias', 'roberta.encoder.layer.9.output.dense.bias', 'roberta.encoder.layer.5.output.dense.bias', 'roberta.encoder.layer.4.attention.output.LayerNorm.bias', 'roberta.encoder.layer.6.output.dense.weight', 'roberta.encoder.layer.11.attention.output.LayerNorm.bias', 'roberta.encoder.layer.7.attention.output.dense.bias', 'roberta.encoder.layer.10.attention.self.query.weight', 'roberta.encoder.layer.6.attention.output.LayerNorm.weight', 'roberta.encoder.layer.5.attention.self.key.bias', 'roberta.encoder.layer.4.intermediate.dense.bias', 'roberta.encoder.layer.8.attention.output.LayerNorm.bias', 'roberta.encoder.layer.6.attention.self.query.weight', 'roberta.encoder.layer.11.attention.self.query.bias', 'roberta.encoder.layer.7.attention.output.LayerNorm.weight', 'roberta.encoder.layer.6.intermediate.dense.bias', 'lm_head.decoder.bias', 'roberta.encoder.layer.11.output.LayerNorm.weight', 'roberta.encoder.layer.10.attention.self.key.weight', 'roberta.encoder.layer.10.attention.self.value.bias', 'roberta.encoder.layer.5.attention.self.value.weight', 'roberta.encoder.layer.5.output.LayerNorm.weight', 'roberta.encoder.layer.7.attention.self.key.weight', 'roberta.encoder.layer.4.attention.self.value.weight', 'roberta.encoder.layer.9.attention.output.LayerNorm.weight', 'roberta.encoder.layer.7.intermediate.dense.bias', 'roberta.encoder.layer.9.intermediate.dense.weight', 'roberta.encoder.layer.8.attention.output.dense.bias', 'roberta.encoder.layer.10.attention.self.query.bias', 'roberta.encoder.layer.6.attention.output.dense.weight', 'roberta.encoder.layer.10.output.LayerNorm.weight', 'roberta.encoder.layer.9.attention.output.dense.bias', 'roberta.encoder.layer.8.attention.output.LayerNorm.weight', 'roberta.encoder.layer.9.output.LayerNorm.bias', 'roberta.encoder.layer.10.attention.output.dense.bias', 'roberta.encoder.layer.8.output.LayerNorm.weight', 'roberta.encoder.layer.6.intermediate.dense.weight', 'roberta.encoder.layer.11.intermediate.dense.weight', 'roberta.encoder.layer.4.attention.self.key.weight', 'roberta.encoder.layer.8.attention.self.query.weight', 'roberta.encoder.layer.11.output.LayerNorm.bias', 'roberta.encoder.layer.5.output.LayerNorm.bias', 'roberta.encoder.layer.7.attention.self.value.weight', 'roberta.encoder.layer.11.attention.self.query.weight', 'roberta.encoder.layer.5.intermediate.dense.bias', 'lm_head.dense.bias', 'roberta.encoder.layer.11.attention.output.dense.bias', 'roberta.encoder.layer.8.attention.output.dense.weight', 'roberta.encoder.layer.9.attention.self.query.weight', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:     Started server process [30881]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:30144 (Press CTRL+C to quit)
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:47100 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:60990 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:51846 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:57306 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:57318 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho anh 50k mb bank nha'}
+Match 1 was found at 14-18:  50k
+['chuyển', 'cho', 'anh', '50', 'nghìn', 'mb', 'bank', 'nha']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  1, 16, 16,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh'], 'money': ['50 nghìn'], 'name_sender': ['mb'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho anh 50k mb bank nha'}
+INFO:     124.158.5.212:37196 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho anh 50k mb bank nha'}
+Match 1 was found at 14-18:  50k
+['chuyển', 'cho', 'anh', '50', 'nghìn', 'mb', 'bank', 'nha']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  1, 16, 16,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh'], 'money': ['50 nghìn'], 'name_sender': ['mb'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho anh 50k mb bank nha'}
+INFO:     124.158.5.212:49714 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho anh 50k mb bank nha'}
+Match 1 was found at 14-18:  50k
+['chuyển', 'cho', 'anh', '50', 'nghìn', 'mb', 'bank', 'nha']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  1, 16, 16,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh'], 'money': ['50 nghìn'], 'name_sender': ['mb'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho anh 50k mb bank nha'}
+INFO:     124.158.5.212:52028 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho anh 50k mb bank nha'}
+Match 1 was found at 14-18:  50k
+['chuyển', 'cho', 'anh', '50', 'nghìn', 'mb', 'bank', 'nha']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  1, 16, 16,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh'], 'money': ['50 nghìn'], 'name_sender': ['mb'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho anh 50k mb bank nha'}
+INFO:     124.158.5.212:59452 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển tiền cho tôi qua mb bank với, 50k nha'}
+Match 1 was found at 35-39:  50k
+['chuyển', 'tiền', 'cho', 'tôi', 'qua', 'mb', 'bank', 'với', '50', 'nghìn', 'nha']
+tensor([2])
+tensor([[ 0,  0,  0,  0,  2, 17,  1, 16, 16,  0,  9, 18,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['tôi'], 'target': ['qua'], 'name_sender': ['mb'], 'ngân_hàng': ['mb bank'], 'money': ['50 nghìn'], 'text': 'chuyển tiền cho tôi qua mb bank với, 50k nha'}
+INFO:     124.158.5.212:43470 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:53528 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:50818 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:52920 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:46304 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:47910 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:49802 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển anh 50k nhé em vào mb bank'}
+Match 1 was found at 10-14:  50k
+['chuyển', 'anh', '50', 'nghìn', 'nhé', 'em', 'vào', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  2,  9, 18,  0,  1,  0,  2, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['anh', 'mb'], 'money': ['50 nghìn'], 'name_sender': ['em'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển anh 50k nhé em vào mb bank'}
+INFO:     124.158.5.212:48550 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:42486 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:42500 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:52814 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:36998 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:59166 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:39334 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:39338 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:39344 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:56550 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:40434 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:39642 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:39648 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:39660 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:35604 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:35616 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:44500 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:44506 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:44520 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k cho t'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'cho', 't']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  2,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'name_rec': ['t'], 'text': 'chuyển 50k cho t'}
+INFO:     124.158.5.212:48960 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50 cho mình nhé'}
+['chuyển', '50', 'cho', 'mình', 'nhé']
+tensor([2])
+tensor([[0, 0, 9, 0, 2, 0, 0]])
+{'intent': 'want_to_rec', 'money': ['50'], 'name_rec': ['mình'], 'text': 'chuyển 50 cho mình nhé'}
+INFO:     124.158.5.212:55060 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho t 50k nhé'}
+Match 1 was found at 12-16:  50k
+['chuyển', 'cho', 't', '50', 'nghìn', 'nhé']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['t'], 'money': ['50 nghìn'], 'text': 'chuyển cho t 50k nhé'}
+INFO:     124.158.5.212:46088 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho t 50k nhé'}
+Match 1 was found at 12-16:  50k
+['chuyển', 'cho', 't', '50', 'nghìn', 'nhé']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['t'], 'money': ['50 nghìn'], 'text': 'chuyển cho t 50k nhé'}
+INFO:     124.158.5.212:46094 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho t 50k nhé'}
+Match 1 was found at 12-16:  50k
+['chuyển', 'cho', 't', '50', 'nghìn', 'nhé']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['t'], 'money': ['50 nghìn'], 'text': 'chuyển cho t 50k nhé'}
+INFO:     124.158.5.212:35008 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:52364 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:35070 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:34986 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:47208 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:39258 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:60114 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:60122 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:33508 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:45500 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:55054 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:43680 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:44868 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:44870 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:60314 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:59312 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:59322 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:56898 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:47180 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:43838 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:53418 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:53434 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:47094 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:47102 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:53774 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:44490 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:44496 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:53582 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:38268 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:40292 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:40300 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:48748 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:48750 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:44498 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:50264 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:50280 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+Match 1 was found at 6-10:  50k
+['chuyển', '50', 'nghìn', 'vào', 'số', 'tài', 'khoản', '161183868888', 'mb', 'bank', 'cho', 'mình', 'nha']
+tensor([2])
+tensor([[ 0,  0,  9, 18,  0,  0,  0,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0,
+          2,  0,  0]])
+{'intent': 'want_to_rec', 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'name_rec': ['mình'], 'text': 'chuyển 50k vào số tài khoản 161183868888 mb bank cho mình nha'}
+INFO:     124.158.5.212:37792 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:43014 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:43704 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:43710 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:55708 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:55718 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:53710 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:53724 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:54912 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:54922 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:37494 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:57514 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:57516 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:55478 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:55490 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:33022 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển tiền cho t'}
+['chuyển', 'tiền', 'cho', 't']
+tensor([1])
+tensor([[ 0,  0,  8,  0,  2, 11]])
+{'intent': 'want_to_transfer', 'target': ['tiền'], 'name_rec': ['t'], 'text': 'chuyển tiền cho t'}
+INFO:     124.158.5.212:55208 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển tiền cho t'}
+['chuyển', 'tiền', 'cho', 't']
+tensor([1])
+tensor([[ 0,  0,  8,  0,  2, 11]])
+{'intent': 'want_to_transfer', 'target': ['tiền'], 'name_rec': ['t'], 'text': 'chuyển tiền cho t'}
+INFO:     124.158.5.212:55220 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển tiền cho t'}
+['chuyển', 'tiền', 'cho', 't']
+tensor([1])
+tensor([[ 0,  0,  8,  0,  2, 11]])
+{'intent': 'want_to_transfer', 'target': ['tiền'], 'name_rec': ['t'], 'text': 'chuyển tiền cho t'}
+INFO:     124.158.5.212:53352 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển tiền cho t'}
+['chuyển', 'tiền', 'cho', 't']
+tensor([1])
+tensor([[ 0,  0,  8,  0,  2, 11]])
+{'intent': 'want_to_transfer', 'target': ['tiền'], 'name_rec': ['t'], 'text': 'chuyển tiền cho t'}
+INFO:     124.158.5.212:52450 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:53554 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '161183868888', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['161183868888'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 161183868888, mb bank'}
+INFO:     124.158.5.212:53568 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:34436 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:36588 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:36592 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 03333456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '03333456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['03333456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 03333456789, mb bank'}
+INFO:     124.158.5.212:42664 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 03333456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '03333456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['03333456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 03333456789, mb bank'}
+INFO:     124.158.5.212:42672 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:35064 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:33364 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:33380 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:41138 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:41146 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:48162 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:37628 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:37640 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:44494 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:59412 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:41112 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:41126 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:53368 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:36208 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:36212 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:43374 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:43382 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:42626 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:42628 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:52238 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:52244 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:37280 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:37284 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:38634 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:38648 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:46904 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:46908 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:60088 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:60102 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:55768 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:56508 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:46072 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:46076 - "GET / HTTP/1.1" 200 OK
+{'text': 'hello'}
+['hello']
+tensor([0])
+tensor([[6, 6, 6, 6]])
+{'intent': 'None', 'ten_thẻ': ['hello'], 'text': 'hello'}
+INFO:     124.158.5.212:47208 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:49318 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:49320 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:39910 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:39926 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:40046 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:40050 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:37084 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:37092 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:52842 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:49092 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:49100 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:39620 - "GET / HTTP/1.1" 200 OK
+{'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+Match 1 was found at 15-19:  50k
+['chuyển', 'cho', 'mình', '50', 'nghìn', 'nhé', '0123456789', 'mb', 'bank']
+tensor([2])
+tensor([[ 0,  0,  0,  2,  9, 18,  0,  3, 12, 12, 12, 12,  7, 16, 16,  0]])
+{'intent': 'want_to_rec', 'name_rec': ['mình'], 'money': ['50 nghìn'], 'stk': ['0123456789'], 'ngân_hàng': ['mb bank'], 'text': 'chuyển cho mình 50k nhé, 0123456789, mb bank'}
+INFO:     124.158.5.212:39628 - "GET / HTTP/1.1" 200 OK

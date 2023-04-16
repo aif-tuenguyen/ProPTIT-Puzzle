@@ -1,0 +1,217 @@
+import ./common.chatito
+
+%[recv]('training':'2000', 'testing':'100')
+    *[5%] ~[tiền] @[target] của @[name_sender] hết @[money] ~[end?]
+    *[5%] @[name_sender] ~[cho] @[name_rec] ~[xin] ~[tiền] @[target] ~[end?]
+    *[5%] của @[name_sender] ~[hết] @[money] ~[end?]
+    *[5%] ~[cho] @[name_rec] ~[mượn]  @[money] ~[end?]
+    *[5%] ~[chuyển] cho @[name_rec] @[money] vào số tài khoản @[stk] ~[end?]
+    *[5%] @[money] ~[chuyển] vào số tài khoản  @[stk] ~[end?]
+    *[5%] ~[chuyển] cho @[name_rec] @[money] vào số thẻ @[stk] ~[end?]
+    *[5%] @[money] ~[chuyển] vào số thẻ  @[stk] ~[end?] 
+    *[5%] ~[chuyển] cho @[name_rec] @[money] vào số tài khoản @[stk] chủ tài khoản @[chủ_tài_khoản] ngân hàng @[ngân_hàng] ~[end?]
+    *[5%] @[money] ~[chuyển] vào số tài khoản  @[stk] chủ tài khoản @[chủ_tài_khoản] ngân hàng @[ngân_hàng] ~[end?]
+    *[5%] ~[chuyển] cho @[name_rec] @[money] vào số thẻ @[stk] chủ tài khoản @[chủ_tài_khoản] ngân hàng @[ngân_hàng] ~[end?]
+    *[5%] @[money] ~[chuyển] vào số thẻ  @[stk] chủ tài khoản @[chủ_tài_khoản] ngân hàng @[ngân_hàng] ~[end?] 
+@[stk]
+    0352371823123
+    031232142114
+    032144211
+    00113277621
+    193214118882
+    09318726313213
+@[ten_thẻ]
+    73216213210
+    13281712
+    9321777712312
+    88831166622
+    166321321
+@[ngân_hàng]
+    việt com banh
+    vietcombank
+    tếch com bank
+    tếch
+    techcombank
+    mờ bê banh
+    mbbank
+    mb
+    bidv
+    agribank
+    scb
+    sacombank
+    tpbank
+    vpbank
+@[chủ_tài_khoản]
+    nguyễn văn học
+    trần thị minh anh
+    nguyễn văn tuệ
+    lê bá hoài
+    bùi phương ngọc mai
+    trần văn thắng
+    nguyễn văn hòa
+    nguyễn phương thảo
+    trần phương anh
+    nguyễn thị lan anh
+    đinh văn sơn
+    phan trung kiên
+    phạm quang anh
+    trần thị ánh ngọc
+    trần thu thủy
+~[chuyển]
+    chuyển
+    gửi
+    đưa
+    bắn
+    chuyển khoản
+~[mượn]
+    mượn
+    nợ
+    vay
+    xin
+~[tiền]
+    tiền
+    phí
+    giá
+~[hết]
+    hết
+    tất cả là
+    mất
+    là
+    thiếu
+~[xin]
+    xin
+    thu
+    lấy
+~[cho]
+    cho
+    gửi
+    bắn
+@[money]
+    300 nghìn
+    300
+    một triệu
+    năm triệu
+    sáu trăm
+    bốn trăm
+    ba mươi nghìn
+    bốn mươi hai nghìn
+@[name_rec]
+    cô
+    chú
+    bác
+    anh
+    chị
+    em
+    ông
+    bà
+    bố
+    mẹ
+    nam
+    đức
+    huyền
+    huy
+    thắng
+    tuệ
+    mai
+    nguyễn văn học
+    nguyễn thị linh
+    phuong anh
+    bùi phương ngọc mai
+    long
+    hải
+    tuân
+    tuấn
+@[name_sender]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    ông
+    bà
+    bố
+    mẹ
+    con
+    dì
+    nam
+    đức
+    huyền
+    huy
+    thắng
+    tuệ
+    mai
+    nguyễn văn học
+    nguyễn thị linh
+    nam anh
+    bùi phương ngọc mai
+    long
+    hải
+    tuấn
+    tuân
+@[target]
+    ~[main] ~[time?]
+~[main]
+    phòng
+    trọ
+    phòng trọ
+    ăn
+    cà phê
+    sân bóng
+    hàng
+    ship
+    gia sư
+    cọc sân
+    áo
+    quần
+    đồ ăn
+    ăn trưa
+    ăn tối
+    nước
+    cọc
+    cọc phòng
+    đặt phòng
+    điện
+    điện nước
+    vệ sinh
+    sinh hoạt
+    quỹ
+    thuê phòng
+    thuê
+    thuê đồ
+    mua hàng
+    giao hàng
+~[time]
+    tối qua
+    trưa qua
+    hôm qua
+    tháng này
+    tháng vừa rồi
+    ngày hôm qua
+    vừa nãy
+    hôm nay
+    ban nãy
+    lúc nãy
+    chiều qua
+    sáng qua
+    sáng nay
+    chiều nay
+~[send]
+    gửi
+    chuyển
+    đưa
+    bắn tài khoản
+    trả
+    chuyển khoản
+    chuyển tiền
+    đặt cọc
+    thanh toán
+    trả nợ
+~[end]
+    nhé
+    nhá
+    nha 
+    nhớ
+    đi
+    ạ

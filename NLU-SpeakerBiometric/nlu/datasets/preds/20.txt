@@ -1,0 +1,1 @@
+{"intent": "want_to_transfer", "name_sender": ["Ch\u1ecb"], "name_rec": ["em"], "target": ["ti\u1ec1n \u0111i"], "text": "Ch\u1ecb tr\u1ea3 em ti\u1ec1n \u0111i"}

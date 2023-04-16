@@ -1,0 +1,1 @@
+{"intent": "want_to_transfer", "name_sender": ["ch\u1ecb"], "name_rec": ["em"], "money": ["50 ngh\u00ecn"], "text": "ch\u1ecb chuy\u1ec3n cho em 50k \u0111i"}

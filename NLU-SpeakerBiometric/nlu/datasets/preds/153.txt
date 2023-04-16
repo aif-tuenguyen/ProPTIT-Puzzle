@@ -1,0 +1,1 @@
+{"intent": "want_to_rec", "money": ["50 ngh\u00ecn"], "stk": ["161183868888"], "ng\u00e2n_h\u00e0ng": ["mb bank"], "name_rec": ["m\u00ecnh"], "text": "chuy\u1ec3n 50k v\u00e0o s\u1ed1 t\u00e0i kho\u1ea3n 161183868888 mb bank cho m\u00ecnh nha"}

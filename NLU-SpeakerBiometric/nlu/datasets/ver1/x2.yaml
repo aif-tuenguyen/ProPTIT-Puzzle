@@ -1,0 +1,135 @@
+import ./common.chatito
+
+%[recv]('training':'1000', 'testing':'100')
+    *[10%] ~[tiền] @[target] của @[s2] hết @[money] ~[end?]
+    *[10%] @[s1] ~[cho] @[s2] ~[xin] @[target] ~[end?]
+    *[10%] của @[s1] ~[hết] @[money] ~[end?]
+    *[10%] ~[cho] @[s1] ~[mượn]  
+#*[10%] ~[send] @[s1] @[target] ~[end?]
+#%[transferMoneySample1]('training':'1000', 'testing':'100')
+~[mượn]
+    mượn
+    nợ
+    vay
+    xin
+~[tiền]
+    tiền
+    phí
+    giá
+~[hết]
+    hết
+    tất cả là
+    mất
+    là
+    thiếu
+~[xin]
+    xin
+    thu
+    lấy
+~[cho]
+    cho
+    gửi
+    bắn
+@[money]
+    300k
+    300
+    một triệu
+    năm triệu
+    sáu trăm
+    bốn trăm
+    ba mươi nghìn
+    bốn mươi hai nghìn
+@[s1]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    tôi
+    tao
+    ông
+    bà
+    con
+    bố
+    mẹ
+@[s2]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    tôi
+    tao
+    ông
+    bà
+    bố
+    mẹ
+@[target]
+    ~[main] ~[time?]
+~[main]
+    phòng
+    trọ
+    phòng trọ
+    ăn
+    cà phê
+    sân bóng
+    hàng
+    ship
+    gia sư
+    cọc sân
+    áo
+    quần
+    đồ ăn
+    ăn trưa
+    ăn tối
+    nước
+    cọc
+    cọc phòng
+    đặt phòng
+    điện
+    điện nước
+    vệ sinh
+    sinh hoạt
+    quỹ
+    thuê phòng
+    thuê
+    thuê đồ
+    mua hàng
+    giao hàng
+~[time]
+    tối qua
+    trưa qua
+    hôm qua
+    tháng này
+    tháng vừa rồi
+    ngày hôm qua
+    vừa nãy
+    hôm nay
+    ban nãy
+    lúc nãy
+    chiều qua
+    sáng qua
+    sáng nay
+    chiều nay
+~[send]
+    gửi
+    chuyển
+    đưa
+    bắn tài khoản
+    trả
+    chuyển khoản
+    chuyển tiền
+    đặt cọc
+    thanh toán
+    trả nợ
+~[end]
+    nhé
+    nhá
+    nha 
+    nhớ
+    đi
+    ạ

@@ -1,0 +1,1 @@
+{"intent": "want_to_transfer", "target": ["ti\u1ec1n"], "name_rec": ["t"], "text": "chuy\u1ec3n ti\u1ec1n cho t"}

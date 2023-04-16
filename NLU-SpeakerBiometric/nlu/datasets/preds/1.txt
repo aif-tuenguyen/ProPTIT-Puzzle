@@ -1,0 +1,1 @@
+{"intent": "information", "name_rec": ["anh"], "stk": ["123421"], "text": "s\u1ed1 t\u00e0i kho\u1ea3n c\u1ee7a anh l\u00e0 123421"}

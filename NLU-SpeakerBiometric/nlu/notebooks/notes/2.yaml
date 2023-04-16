@@ -1,0 +1,130 @@
+// Ways to say goodbye
+
+import ./common.chatito
+
+%[information]('training': '1500', 'testing': '100')
+    *[5%] ~[số tài khoản] của @[name_rec] là @[stk] ngân hàng @[ngân_hàng] chủ tài khoản @[chủ_tài_khoản] ~[end?]
+    *[5%] @[name_sender] chuyển vào ~[số tài khoản] @[stk] ngân hàng @[ngân_hàng] chủ tài khoản @[chủ_tài_khoản] ~[end?]
+    *[5%] ~[số tài khoản] của @[name_rec] là @[stk] chủ tài khoản @[chủ_tài_khoản] ngân hàng @[ngân_hàng]  ~[end?]
+    *[5%] @[name_sender] chuyển vào ~[số tài khoản] @[stk]  chủ tài khoản @[chủ_tài_khoản] ngân hàng @[ngân_hàng] ~[end?]
+    *[5%] ~[số tài khoản] của @[name_rec] là @[stk] ngân hàng @[ngân_hàng]  ~[end?]
+    *[5%] ~[số tài khoản] @[stk] ngân hàng @[ngân_hàng]  ~[end?]
+    *[5%] ngân hàng @[ngân_hàng]  ~[end?]
+    *[5%] @[name_sender] chuyển vào tài khoản có tên là @[ten_tk] ~[end?]
+    *[5%] tên tài khoản của @[name_rec] là @[ten_tk] ~[end?]
+    *[5%] tên tài khoản là @[ten_tk] ~[end?]
+    *[5%] tên tài khoản @[ten_tk] ~[end?]
+    *[5%] @[name_sender] chuyển vào số thẻ  @[ten_thẻ] ~[end?]
+@[stk]
+    13232108273231
+    10321922
+    3212931111
+    99832112
+    9991321321
+    7635112321
+    32199421
+@[ten_tk]
+    meoconxinhxan
+    nguyenanhngoc
+    truongcongminh
+    vippro
+    hoaf13
+    hocvp06
+    chattio
+    natural
+    anhngoc12
+    phuongthao11
+    ngocmai26
+    bongdem
+@[ten_thẻ]
+    32132199931132
+    88113212211
+    3777166321
+    00883123277288
+    88113213
+@[ngân_hàng]
+    việt com banh
+    vietcombank
+    tếch com bank
+    tếch
+    techcombank
+    mờ bê banh
+    mbbank
+    mb
+    bidv
+    agribank
+    scb
+    sacombank
+    tpbank
+    vpbank
+@[chủ_tài_khoản]
+    nguyễn văn học
+    trần thị minh anh
+    nguyễn văn tuệ
+    lê bá hoài
+    bùi phương ngọc mai
+    trần văn thắng
+    nguyễn văn hòa
+    nguyễn phương thảo
+    trần phương anh
+    nguyễn thị lan anh
+    đinh văn sơn
+    phan trung kiên
+    phạm quang anh
+    trần thị ánh ngọc
+    trần thu thủy
+@[name_rec]
+    cô
+    chú
+    bác
+    anh
+    chị
+    em
+    ông
+    bà
+    bố
+    mẹ
+    nam
+    đức
+    huyền
+    huy
+    thắng
+    tuệ
+    mai
+    nguyễn văn học
+    nguyễn thị linh
+    phuong anh
+    bùi phương ngọc mai
+    long
+    hải
+    tuân
+    tuấn
+@[name_sender]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    ông
+    bà
+    bố
+    mẹ
+    con
+    dì
+    nam
+    đức
+    huyền
+    huy
+    thắng
+    tuệ
+    mai
+    nguyễn văn học
+    nguyễn thị linh
+    nam anh
+    bùi phương ngọc mai
+    long
+    hải
+    tuấn
+    tuân

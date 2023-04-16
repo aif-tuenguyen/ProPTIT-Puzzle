@@ -1,0 +1,1 @@
+{"intent": "None", "name_sender": ["B\u1ea1n", "m\u00ecnh"], "ten_tk": ["\u01a1i", "t\u1eeb"], "ng\u00e2n_h\u00e0ng": ["mu\u1ed1n"], "target": ["ti\u1ec1n"], "name_rec": ["b\u1ea1n"], "text": "B\u1ea1n \u01a1i, m\u00ecnh mu\u1ed1n nh\u1eadn ti\u1ec1n t\u1eeb b\u1ea1n"}

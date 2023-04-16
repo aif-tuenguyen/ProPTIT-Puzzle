@@ -1,0 +1,113 @@
+import ./common.chatito
+
+# Ways to request a restaurant within a location (using probability operator)
+# NOTE: 60% of the examples should come from the first sentence, and 40% from the second
+%[sender]('training':'1500', 'testing':'100')
+    *[10%] @[name_sender]  ~[send] cho @[name_rec]   @[target] ~[end?]
+    *[10%] cho @[name_sender] ~[send]  @[target] cho @[name_rec] ~[end?]
+    *[10%] cho @[name_sender] ~[send]  @[target] ~[end?]
+    *[10%] @[target] @[name_sender] ~[send] cho @[name_rec] ~[end?]
+#*[10%] ~[send] @[s1] @[target] ~[end?]
+#%[transferMoneySample1]('training':'1000', 'testing':'100')
+
+@[name_sender]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    tôi
+    tao
+    ông
+    bà
+    bố
+    mẹ
+    nam
+    đức
+    huyền
+    huy
+    thắng
+    tuệ
+    mai
+    nguyễn văn học
+    nguyễn thị linh
+    phuong anh
+    long 
+    ân
+    tuân
+    tuấn
+@[name_rec]
+    cô
+    chú
+    bác
+    mình
+    anh
+    chị
+    em
+    ông
+    bà
+    bố
+    mẹ
+    nam
+    đức
+    huyền
+    huy
+    thắng
+    tuệ
+    mai
+    nguyễn văn học
+    nguyễn thị linh
+    nam anh
+    long 
+    ân
+    huy
+    hải
+    tuân
+    tuấn
+@[target]
+    tiền ~[main] ~[time?]
+@[city]
+    ~[new york]
+    ~[san francisco]
+    ~[atlanta]
+~[main]
+    phòng
+    trọ
+    phòng trọ
+    ăn
+    cà phê
+    sân bóng
+    hàng
+    ship
+    gia sư
+    cọc sân
+    tiêu
+    áo
+    quần
+    đồ ăn
+    ăn trưa
+    ăn tối
+    nước
+~[time]
+    tối qua
+    trưa qua
+    hôm qua
+    tháng này
+    tháng vừa rồi
+    ngày hôm qua
+~[send]
+    gửi
+    chuyển
+    đưa
+    bắn tài khoản
+    trả
+    chuyển khoản
+    đặt cọc
+    thanh toán
+    trả nợ
+~[end]
+    nhé
+    nhá
+    nha 

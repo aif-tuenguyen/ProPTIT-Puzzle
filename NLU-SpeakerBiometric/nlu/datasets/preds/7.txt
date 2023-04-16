@@ -1,0 +1,1 @@
+{"intent": "want_to_rec", "name_sender": ["ck"], "name_rec": ["tao"], "text": "ck cho tao \u0111i"}

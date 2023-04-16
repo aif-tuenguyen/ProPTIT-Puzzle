@@ -1,0 +1,1 @@
+{"intent": "want_to_rec", "name_sender": ["Mai \u01a1i"], "name_rec": ["t"], "target": ["ti\u1ec1n"], "text": "Mai \u01a1i, tr\u1ea3 t ti\u1ec1n \u0111i"}
